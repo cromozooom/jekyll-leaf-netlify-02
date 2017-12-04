@@ -1,3 +1,5 @@
+sass-cache
+
 # Logs
 logs
 *.log
@@ -29,7 +31,6 @@ jspm_packages
 
 # Optional npm cache directory
 .npm
-sass-cache
 
 # Optional REPL history
 .node_repl_history
