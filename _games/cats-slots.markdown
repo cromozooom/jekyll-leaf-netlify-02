@@ -1,7 +1,7 @@
 ---
-title: Thunderstruck 03
+title: cats slots
 date: 2017-12-05 20:40:00 Z
-image: "/uploads/thunderstruck-ii-slots.png"
+image: "/uploads/cats-slots.png"
 is new: 
 ---
 

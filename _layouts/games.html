@@ -23,10 +23,9 @@
     <div class="container-fluid">
       <div class="container">
         <p>Games list</p>
-        <ul>{% for game in site.games %}
-          <li>
-            <p>{{ game.title }}</p>
-            <p>1</p>
+        <ul class="d-flex flex-wrap list-unstyled">{% for game in site.games %}
+          <li class="d-flex flex-column"><a href=""><img src="{{game.image}}" title=" play {{ game.title }}"></a>
+            <h2 class="text-center"><small>{{ game.title }}</small></h2>
           </li>{% endfor %}
         </ul>
       </div>

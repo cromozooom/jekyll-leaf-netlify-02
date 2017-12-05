@@ -1,7 +1,7 @@
 ---
-title: Thunderstruck 02
+title: spartacus slots
 date: 2017-12-05 20:40:00 Z
-image: "/uploads/thunderstruck-ii-slots.png"
+image: "/uploads/spartacus-slots.png"
 is new: 
 ---
 

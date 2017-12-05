@@ -1,7 +1,7 @@
 ---
-title: Thunderstruck 01
+title: raging rhino slots
 date: 2017-12-05 20:40:00 Z
-image: "/uploads/thunderstruck-ii-slots.png"
+image: "/uploads/raging-rhino-slots.png"
 is new: 
 ---
 
