@@ -1,9 +1,7 @@
 ---
 title: Welcome to Jekyll!
 date: 2017-12-04 16:08:26 Z
-categories:
-- jekyll
-- update
+categories: posts
 layout: post
 ---
 
