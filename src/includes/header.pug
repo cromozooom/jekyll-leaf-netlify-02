@@ -3,8 +3,8 @@
 		p: small header template
 		ul.nav.p-0.m-0
 			li.nav-item
-				a.nav-link(href='/') {{ site.title }}
+				a.nav-link(href='{{site.baseurl}}') {{ site.title }}
 			li.nav-item
-				a.nav-link.active(href='/') HOME
+				a.nav-link.active(href='{{site.baseurl}}') HOME
 			li.nav-item
-				a.nav-link(href='') POSTS
+				a.nav-link(href='{{site.baseurl}}/posts.html') POSTS
