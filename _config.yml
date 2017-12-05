@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
   casinos:
-    title: casinos
+    title: games
     output: true
 email: your-email@example.com
 description: Write an awesome description for your new site here. You can edit this
