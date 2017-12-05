@@ -2,7 +2,9 @@ doctype html
 html
 	include ../includes/head
 	body
-		include ../includes/body
-		.post {{ content }}
+		include ../includes/header
+		.container-fluid
+			.container
+				| {{ content }}
 		include ../includes/footer
 	
