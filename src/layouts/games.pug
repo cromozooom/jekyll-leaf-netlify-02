@@ -1,0 +1,10 @@
+extends default	
+
+block content
+	p Games list
+	ul
+		| {% for game in site.games %}
+		li
+			p {{ game.title }}
+			p 1
+		| {% endfor %}

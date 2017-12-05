@@ -5,6 +5,8 @@ html
 		include ../includes/header
 		.container-fluid
 			.container
-				| {{ content }}
+				block content
+					| {{ content }}
+				
 		include ../includes/footer
 	

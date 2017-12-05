@@ -1,10 +1,5 @@
-doctype html
-html
-	include ../includes/head
-	body
-		include ../includes/header
-		.container-fluid
-			.container
-				| {{ content }}
-		include ../includes/footer
-	
+extends default
+
+block content
+	| {{ content }}
+	p post
