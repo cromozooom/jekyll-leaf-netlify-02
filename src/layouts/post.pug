@@ -1,7 +1,13 @@
-| ---
-| layout: default
-| ---
-h2 {{ page.title }}
-p.meta {{ page.date | date_to_string }}
-.post
-  | {{ content }}
+doctype html
+html
+	include ../includes/head
+	body
+		include ../includes/body
+		.content
+			h2 {{ page.title }}
+			p.meta {{ page.date | date_to_string }}
+			.post {{ content }}
+		include ../includes/footer
+	
+
+		
