@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-  casinos:
+  games:
     title: games
     output: true
 email: your-email@example.com
