@@ -3,6 +3,7 @@ title: Post 01
 date: 2017-12-04 16:08:00 Z
 categories:
 - posts
+post short description: something nice
 layout: post
 ---
 
