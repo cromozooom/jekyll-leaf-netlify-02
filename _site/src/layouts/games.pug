@@ -1,10 +1,11 @@
 extends default	
 block content
-	p Games list
+	hr
+	h2 Games list
 	ul.d-flex.flex-wrap.list-unstyled
-		| {% for game in site.games %}
-		li.d-flex.flex-column
-			a(href="")
+		| {% for game in site.games limit:10 %}
+		li.equalHW.d-flex.flex-column.px-card
+			a.mx-auto(href="")
 				img(src="{{game.image}}" title=" play {{ game.title }}")
-			h2.text-center: small {{ game.title }}
+			h3.text-center: small {{ game.title }}
 		| {% endfor %}

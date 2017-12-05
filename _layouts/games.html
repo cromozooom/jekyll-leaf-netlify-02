@@ -22,10 +22,11 @@
     </div>
     <div class="container-fluid">
       <div class="container">
-        <p>Games list</p>
-        <ul class="d-flex flex-wrap list-unstyled">{% for game in site.games %}
-          <li class="d-flex flex-column"><a href=""><img src="{{game.image}}" title=" play {{ game.title }}"></a>
-            <h2 class="text-center"><small>{{ game.title }}</small></h2>
+        <hr>
+        <h2>Games list</h2>
+        <ul class="d-flex flex-wrap list-unstyled">{% for game in site.games limit:10 %}
+          <li class="equalHW d-flex flex-column px-card"><a class="mx-auto" href=""><img src="{{game.image}}" title=" play {{ game.title }}"></a>
+            <h3 class="text-center"><small>{{ game.title }}</small></h3>
           </li>{% endfor %}
         </ul>
       </div>
