@@ -1,12 +1,10 @@
-| ---
-| title: Posts
-| layout: default
-| ---
-|
+extends default	
 
-| {{ content }}
-p post list
-ul
-	| {% for post in site.posts %}
-	li 1
-	| {% endfor %}
+block content
+	| {{ content }}
+	p posts list
+	ul
+		| {% for post in site.posts %}
+		li
+			p 1
+		| {% endfor %}
