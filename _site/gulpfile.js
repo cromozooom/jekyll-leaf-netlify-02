@@ -107,7 +107,7 @@ gulp.task('jekyll-build', function (done) {
 	 * Watch html/md files, run jekyll & reload BrowserSync
 	 */
 	gulp.task('watch', function () {
-		gulp.watch('src/sass/*.scss', ['sass', 'jekyll-rebuild']);
+		gulp.watch(['src/sass/**/*.scss', 'src/sass/**/*.sass'], ['sass', 'jekyll-rebuild']);
 		gulp.watch(['src/**/*.pug'], ['includes', 'layout', 'jekyll-rebuild']);
 		gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], [ 'jekyll-rebuild']);
 		
