@@ -5,7 +5,6 @@ image: "/uploads/88-fortune-slots.png"
 type: slots
 is new: 
 layout: game
-
 ---
 
 something long about games
