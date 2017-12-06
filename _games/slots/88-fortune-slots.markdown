@@ -7,4 +7,4 @@ is new:
 layout: game
 ---
 
-something long about games
+something long about games'
