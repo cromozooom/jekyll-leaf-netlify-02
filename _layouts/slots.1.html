@@ -26,14 +26,17 @@
     <div class="container-fluid">
       <div class="container">
         <hr>
-        <h2>All Games</h2>
-        <ul class="d-flex flex-wrap list-unstyled">{% for game in site.games %}
+        <h2>Slots list</h2>
+        <ul class="d-flex flex-wrap list-unstyled">
+          {% for game in site.games %}
+          {% if game.type == "slots" %}
           <li class="equalHW d-flex flex-column px-card">
             <div class="m-2 p-2 px-rounded"><a class="w-100 text-center d-block" href="{{game.url}}"><img class="mx-auto" src="{{game.image}}" title=" play {{ game.title }}"></a>
               <h3 class="text-center m-2"><small>{{ game.title | capitalize }}</small></h3>
               <p>{{ game.type }}</p>
             </div>
-          </li>{% endfor %}
+          </li>{% endif %}
+          {% endfor %}	
         </ul>
       </div>
     </div>

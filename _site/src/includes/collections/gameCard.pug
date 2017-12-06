@@ -1,0 +1,6 @@
+li.equalHW.d-flex.flex-column.px-card
+	.m-2.p-2.px-rounded
+		a.w-100.text-center.d-block(href="{{game.url}}")
+			img.mx-auto(src="{{game.image}}" title=" play {{ game.title }}")
+		h3.text-center.m-2: small {{ game.title | capitalize }}
+		p {{ game.type }}

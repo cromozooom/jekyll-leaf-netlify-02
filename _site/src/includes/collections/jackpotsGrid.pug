@@ -1,0 +1,6 @@
+ul.d-flex.flex-wrap.list-unstyled
+	| {% for game in site.games %}
+	| {% if game.type == "jackpots" %}
+	include gameCard
+	| {% endif %}
+	| {% endfor %}	
