@@ -1,0 +1,19 @@
+
+<ul class="d-flex flex-wrap list-unstyled">
+  {% for game in site.games  %}
+  {% case game.type and page.layout %}
+  {% when 'live' and "games" %}
+  <li class="equalHW d-flex flex-column px-card">
+    <div class="m-2 p-2 px-rounded"><a class="w-100 text-center d-block" href="{{game.url}}"><img class="mx-auto" src="{{game.image}}" title=" play {{ game.title }}"/></a>
+      <h3 class="text-center m-2"><small>{{ game.title | capitalize }}</small></h3>
+      <p>{{ game.type }}</p>
+    </div>
+  </li>{% when 'slots' and "games" %}
+  <li class="equalHW d-flex flex-column px-card">
+    <div class="m-2 p-2 px-rounded"><a class="w-100 text-center d-block" href="{{game.url}}"><img class="mx-auto" src="{{game.image}}" title=" play {{ game.title }}"/></a>
+      <h3 class="text-center m-2"><small>{{ game.title | capitalize }}</small></h3>
+      <p>{{ game.type }}</p>
+    </div>
+  </li>{% endcase %}
+  {% endfor %}
+</ul>
