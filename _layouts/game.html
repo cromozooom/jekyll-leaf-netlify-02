@@ -22,15 +22,7 @@
     </div>
     <div class="container-fluid">
       <div class="container">
-        <hr>
-        <h2>Games list</h2>
-        <ul class="d-flex flex-wrap list-unstyled">{% for game in site.games limit:10 %}
-          <li class="equalHW d-flex flex-column px-card">
-            <div class="m-2 px-rounded"><a class="mx-auto" href="{{game.url}}"><img src="{{game.image}}" title=" play {{ game.title }}"></a>
-              <h3 class="text-center m-2"><small>{{ game.title | capitalize }}</small></h3>
-            </div>
-          </li>{% endfor %}
-        </ul>
+        <p>game</p>{{ content }}
       </div>
     </div>
     <footer class="container-fluid">
